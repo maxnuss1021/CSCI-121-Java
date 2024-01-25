@@ -1,10 +1,14 @@
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 import java.util.*;
-import java.util.Scanner;
-public class Project_Money_Converter{ // I adapted the program to be more practical for cash reg
+public class ProjectMoneyConverter{ // I adapted the program to be more practical for cash reg
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("What is your change?");
-        int amount = (int) (in.nextDouble() * 100); //takes in a double and multiplies it by 100 to get an integer
+        String myamount = in.next(); //takes in a double and multiplies it by 100 to get an integer
+        myamount = myamount.replace("$", " ");
+        int amount = (int) (Double.parseDouble(myamount) *100);
         System.out.println("Would you like dollar bills if necessary? (Y/N)"); // Creative aspect. Allows user to select if he wants full bills or just coins.
         String answer = in.next();
         if (answer.equals("Y")){ // If the user wants to get bills along with coins this if statement will be true. It will calculate each bill amount and return them.
@@ -35,3 +39,4 @@ public class Project_Money_Converter{ // I adapted the program to be more practi
         System.out.println("For Coins, you have " + quarter + " Quarters, " + dime + " Dimes, " + nickle +" Nickles, " + pennies + " Pennies");
     }
 }
+
