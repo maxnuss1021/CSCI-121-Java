@@ -12,7 +12,12 @@ public class BadSubscriptCaught {
         catch(IndexOutOfBoundsException e){
             System.out.println("please re-input an integer between 1 and 10:");
              x = in.nextInt();
-            System.out.println(ar[9]);
+            System.out.println(ar[x]);
+        }
+        catch(InputMismatchException e){
+            System.out.println("Please input an INTEGER");
+            x = in.nextInt();
+            system.out.println(ar[x]);
         }
     }
 }
