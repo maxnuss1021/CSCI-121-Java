@@ -21,12 +21,12 @@ public class BadSubscriptCaught {
         catch(InputMismatchException e){
             System.out.println("Please input an INTEGER");
             x = in.nextInt();
-            system.out.println(ar[x]);
+            System.out.println(ar[x]);
         }
         catch(Exception e){
             System.out.println("Error, please try again");
             x = in.nextInt();
-            system.out.println(ar[x]);
+            System.out.println(ar[x]);
         }
     }
 }
