@@ -16,8 +16,8 @@ public class ExceptionLabChallenge {
             x = in.nextDouble();
             System.out.println(Math.sqrt(x));
         }
-        catch(Exception e){
-            System.out.println("Error, please try inputting a number again");
+        catch(InputMismatchException e){
+            System.out.println("Error you didn't enter a number, please try inputting a NUMBER again");
             x = in.nextDouble();
             System.out.println(Math.sqrt(x));
         }
