@@ -103,10 +103,6 @@ class UseDinnerParty extends JFrame implements ActionListener {
             dp.setVisible(true);
         }
     }
-    public static void main(String[] args){
-        UseParty myparty = new UseParty();
-        myparty.setVisible(true);
-    }
 }
 class pdisplay extends JFrame{
     private JLabel party;
