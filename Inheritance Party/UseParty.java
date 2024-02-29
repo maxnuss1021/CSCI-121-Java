@@ -67,7 +67,7 @@ class UseDinnerParty extends JFrame implements ActionListener {
     JLabel header2 = new JLabel("What do you want the invitation to say");
     JButton showinvite = new JButton("Show Invite");
     JTextField text2 = new JTextField(20);
-    JLabel Choice = new JLabel("Please select your choice for the dinner party: 1 for chicken, 2 for steak.");
+    JLabel Choice = new JLabel("Please select your choice for the dinner party: 1 for Tofu, 2 for steak.");
     JButton cont = new JButton("continue");
     JTextField text3 = new JTextField(1);
 
