@@ -10,7 +10,7 @@ public class ZSCORES {
     public ZSCORES()  {
         Scanner sc;
         try {
-            sc = new Scanner(new File("/Users/maxnussbaum/Desktop/ZScoreData.csv"));
+            sc = new Scanner(new File("/Users/maxnussbaum/Desktop/ZScoreData.csv")); //Replace this path with your own path to the ZScoreData.csv
         }
         catch (FileNotFoundException e) {
             throw new RuntimeException(e);
