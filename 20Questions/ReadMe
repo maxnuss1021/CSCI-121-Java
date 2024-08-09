@@ -1,2 +1,2 @@
-This is a code for a 20 questions game used when learning about binary trees. 
+This is a code for a 20 questions game created to show proficiency in binary trees. 
 The game learns every time it is used, prompting the user for a more specific question and adding onto the tree. 
