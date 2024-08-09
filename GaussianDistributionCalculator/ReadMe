@@ -1,1 +1,2 @@
 This code will calculate probabilities based on user-inputted values on a normal distribution. 
+The code will not run unless you change the path to the ZSCORES. The path is personalized to my computer. 
